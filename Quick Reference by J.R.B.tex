@@ -1,0 +1,168 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\begin{document}
+
+\section{New Section}
+
+\subsection{New Subsection}
+
+Hello,World!
+
+\section{Quick Reference}
+
+\subsection{Intrinsic Font Styles}
+
+\textbf{boldface}
+\textit{italic} 
+\textrm{roman}
+\textsc{small caps}
+\textsf{sans serif}
+\textsl{slanted}
+\texttt{typewriter}
+
+\textbf{\textsc{bold small caps}}
+
+\subsection{Font Sizes}
+{\tiny tiny} {\scriptsize smaller still} {\footnotesize smaller} {\small small} normal {\large large} {\Large larger} {\LARGE larger still} {\huge huge}
+
+\begin{large} This is large environment.\end{large}
+
+\subsection{Special Format}
+\underline{underline} \frame{frame} \fbox{frame with some room}
+
+\subsection{Positioning Paragraph}
+\begin{center}
+The text is centered because I have entered the center environment.
+Text remains centered as long as we remain in this environment.
+\end{center}
+\begin{flushleft}
+Now we are out of the centering environment, and have begun the
+flushleft environment.
+\end{flushleft}
+\begin{flushright}
+This is another paragraph, but in the flushright environment.
+You will have occasion to use all four paragraph positions.
+\end{flushright}
+\centerline{This line is centered.}
+
+\subsection{Skipping}
+This is a first line. \bigskip
+
+The space you see above is a big skip. \medskip
+
+The space you see just above is a medium skip. \smallskip
+
+The space you now see just above is a small skip.
+
+This is just an ordinary line space.
+
+\subsection{Quote}
+\begin{quote}
+The quote environment is intended for short quotes, generally one short
+paragraph (as me), or a sequence of one line quotes, separated by blank lines.
+\end{quote}
+\begin{quotation}
+The quotation environment is used for long quotations, having more
+than one paragraph (separated by blank lines).
+
+\noindent The indentation is the same
+as the quote, except the first line of each new paragraph is indented.
+\end{quotation}
+
+Another example is as followed:
+\begin{quotation}
+``Computers do not dream, any more than they play. We are
+far from certain what dreams are good for, but we know what
+they indicate: a great deal of information processing goes on far
+beneath the surface of man’s purposive behavior, in ways and
+for reasons that are only very indirectly reflected in his overt
+activity.''
+
+\hfill --- Alan M. Turing
+\end{quotation}
+
+\subsection{Verse}
+The verse environment indents oppositely: lines after the first.
+\begin{verse}
+\textit{Neglect of mathematics works injury to all knowledge, since he
+who is ignorant of it cannot know the other sciences or the
+things of this world. And what is worse, men who are thus
+ignorant are unable to perceive their own ignorance and so do
+not seek a remedy.} \hfill --- Roger Bacon
+\end{verse}
+
+\subsection{List Environment}
+There are three intrinsic list environments, distinguished by what appears
+at the beginning of each item: number, bullet, or your description (perhaps
+nothing). To illustrate, here is the use of a description list environment
+to itemize steps involved in learning \LaTeX.
+
+\subsubsection{Description List Environment}
+\begin{description}
+	\item [Basic Document Preparation.] Knowing how to setup ...
+	\item [Making Tables.] \LaTeX~ provides a means ...
+	\item [Bibliography.] Knowing how to create a bibliography ...
+	\item [Mathematics.] This is the power of \LaTeX~ and one ...
+	\item [Graphics.] This has progressed a great deal in the ...
+	\item [Other.] There are a great many things to learn ...
+\end{description}
+
+\subsubsection{Itemize List Environment}
+\begin{itemize}
+	\item This is item 1 and our task has just begun. Blank lines before an item have no effect.
+	\item This is item 2 and we shall limit to just this few.
+
+A blank line within an item does create a new paragraph,
+using the indentation of the itemize environment.
+
+	\begin{itemize}
+		\item A second (nested) itemized list changes the bullet and indents another level.
+			\begin{itemize}
+					\item A third (nested) itemized list changes the bullet and indents another level.
+			\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{Enumerate List Environment}
+\begin{enumerate}
+	\item This is item 1, and we are having fun.
+	\item This is item 2, and it’s time to number anew.
+		\begin{enumerate}
+			\item Back to item 1, but we are not yet done.
+			\item Two is new.
+				\begin{enumerate}
+					\item One again!
+					\item Two (b) or knot 2b?
+				\end{enumerate}
+		\end{enumerate}
+\end{enumerate}
+
+\subsection{Table}
+\begin{center}
+\begin{tabular}{lcr}
+left & center & right \\
+1 & 2 & 3
+\end{tabular}\medskip
+
+Figure 1:A 2*3 Table
+\end{center} \bigskip
+\begin{center}
+\begin{tabular}{|l|c|r|} \hline
+-110 & 12000 & -130 \\ \hline
+210 & -220 & 230 \\ \hline
+\end{tabular} \medskip
+
+Figure 2:A 2*3 Table with Horizontal and Vertical Lines
+\end{center} \bigskip
+
+\begin{center}
+\begin{tabular}{l|cc|}
+Name & Test 1 & Test 2 \\ \cline{1-1}
+Bob & 67 & 72 \\
+Sue & 72 & 67 \\ \cline{2-3}
+\end{tabular} \medskip
+
+Figure 3:A Table with Partially Spanning Horizontal and Vertical Lines
+\end{center}
+
+\end{document}
