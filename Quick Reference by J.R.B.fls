@@ -1,0 +1,48 @@
+PWD /Users/jackblack/Documents/GitHub/LaTeX-reference
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
+INPUT Quick Reference by J.R.B.tex
+OUTPUT Quick Reference by J.R.B.log
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
+INPUT Quick Reference by J.R.B.aux
+INPUT Quick Reference by J.R.B.aux
+OUTPUT Quick Reference by J.R.B.aux
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmss.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmss.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr9.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
+OUTPUT Quick Reference by J.R.B.xdv
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+INPUT Quick Reference by J.R.B.aux
